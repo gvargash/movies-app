@@ -1,0 +1,65 @@
+.@{class-prefix}-login-container {
+  background-color: @bg;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  .@{class-prefix}-login-box {
+    width: 400px;
+
+    .@{class-prefix}-title-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .@{class-prefix}-login-logo {
+        display: flex;
+        align-items: center;
+
+        & span {
+          margin-right: 16px;
+        }
+
+        & h1 {
+          margin: 0;
+          padding: 0;
+          font-weight: 600;
+          font-size: 33px;
+        }
+      }
+
+      .@{class-prefix}-company-description {
+        font-size: 14px;
+        color: @grey-1;
+        margin-top: 12px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+.@{class-prefix}-login-form-forgot,
+.@{class-prefix}-login-form-register {
+  float: right;
+}
+
+.@{class-prefix}-prefix-icon {
+  color: @info-color;
+}
+
+.@{class-prefix}-login-google-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 16px;
+  padding: 0;
+}
+
+.@{class-prefix}-google-login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
